@@ -1,0 +1,5 @@
+name: podman
+version: 1.0
+description: Installing podman and creating its docker symb link
+execute:
+    - script: install.sh

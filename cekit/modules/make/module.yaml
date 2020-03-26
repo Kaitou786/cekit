@@ -1,0 +1,7 @@
+schema_version: 1
+version: 1.0
+name: make
+description: Installing make
+packages:
+        install:
+                - make
