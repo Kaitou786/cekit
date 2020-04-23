@@ -3,10 +3,15 @@ version: 1.0
 from: registry.redhat.io/openshift4/ose-jenkins-agent-base
 description: Image used by dynamic jenkins slave to build kogito-cloud-operator using podman
 modules:
-        repositories:
-                - path: modules
-        install:
-                - name: go
-                - name: make
-                - name: mercurial
-                - name: operator-sdk
+  repositories:
+    - path: modules
+  install:
+    - name: go
+    - name: podman
+    - name: gcc
+    - name: make
+    - name: mercurial
+    - name: operator-sdk
+    - name: java
+    - name: maven
+    - name: user

@@ -1,0 +1,11 @@
+schema_version: 1
+
+name: user
+version: 1.0
+description: "Creates a regular user that could be used to run services"
+execute:
+  - script: create.sh
+
+run:
+  user: 1001
+  workdir: "/home/jenkins"

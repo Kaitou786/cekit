@@ -1,0 +1,6 @@
+name: gcc
+version: "4.8.6"
+description: Installing gcc by redhat
+packages:
+  install:
+    - gcc
